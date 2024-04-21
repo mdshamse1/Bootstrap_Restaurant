@@ -1,0 +1,58 @@
+.colab-container {
+    margin: 20px 0; 
+    overflow: hidden;
+    position: relative; 
+    width: 100%; 
+    padding: 20px;
+    background-color: #ffd5a8;
+
+}
+
+.colab-header {
+    display: flex;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch; 
+    padding-bottom: 10px;
+}
+
+.colab-item {
+    flex: 0 0 auto;
+    width: 400px;
+    margin-right: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 40px; 
+    text-align: center;
+    scroll-snap-align: center; 
+}
+
+.arrow-btn {
+    background-color: #007bff; 
+    color: #fff; 
+    border: none;
+    border-radius: 50%; 
+    width: 40px; 
+    height: 40px;
+    font-size: 20px; 
+    cursor: pointer; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    position: absolute; 
+    transform: translateY(-50%); 
+    top: 50%; 
+}
+
+#prevBtn {
+    z-index: 2;
+    left: 0; 
+}
+
+#nextBtn {
+    right: 0; 
+}
+
+.arrow-btn:hover {
+    background-color: #0056b3;
+}
